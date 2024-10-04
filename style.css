@@ -53,7 +53,7 @@ color:#7E60BF;
 	 background-image:url("Imagenes/marzo.jpg");background-size:cover;
  }
  .caja:nth-child(4) .caja_imagen{
-	 background-image:url("Imagenes/abril.JFIF");background-size:cover;
+	 background-image:url("Imagenes/semana santa.webp");background-size:cover;
  }
  .caja:nth-child(5) .caja_imagen{
 	 background-image:url("Imagenes/mayo.webp");background-size:cover;
@@ -77,7 +77,7 @@ color:#7E60BF;
 	 background-image:url("Imagenes/noviemre.png");background-size:cover;
  }
  .caja:nth-child(12) .caja_imagen{
-	 background-image:url("Imagenes/diciembre.JFIF");
+	 background-image:url("Imagenes/navidad.webp");
 	 background-size:cover;
  }
 .usuario img{
