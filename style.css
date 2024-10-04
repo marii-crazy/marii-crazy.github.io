@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Damion&family=Erica+One&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Damion&family=Erica+One&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Damion&family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Limelight&family=Oi&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{margin:0;
+padding:0;
+}
+.caja{
+	width:300px;
+	border:9px double #E4B1F0;
+	padding:30px;
+	margin-bottom:50px;
+	text-align:center;
+	background-color:#F5EFFF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.caja_imagen{
+	width:100%;
+	height:300px;
+margin:20px 0;
+}
+.contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+.caja h2{font-family: "Pacifico", cursive;
+letter-spacing:2px;
+color:#7E60BF;
+}
+.caja p{
+	font-family: "Courgette", cursive;
+	color:#433878;
+}
+ h1{margin:50px 0;
+ text-align:center;
+  font-family: "Limelight", sans-serif;
+ color:#E7CCCC;
+ letter-spacing:2px;
+ font-size:70px;
+ }
+ .caja:nth-child(1) .caja_imagen{
+	 background-image:url("Imagenes/dia de reyes.webp");background-size:cover;
+ }
+ .caja:nth-child(2) .caja_imagen{
+	 background-image:url("Imagenes/febrero.jpg");background-size:cover;
+ }
+ .caja:nth-child(3) .caja_imagen{
+	 background-image:url("Imagenes/marzo.jpg");background-size:cover;
+ }
+ .caja:nth-child(4) .caja_imagen{
+	 background-image:url("Imagenes/abril.JFIF");background-size:cover;
+ }
+ .caja:nth-child(5) .caja_imagen{
+	 background-image:url("Imagenes/mayo.webp");background-size:cover;
+ }
+ .caja:nth-child(6) .caja_imagen{
+	 background-image:url("Imagenes/junio.png");background-size:cover;
+ }
+ .caja:nth-child(7) .caja_imagen{
+	 background-image:url("Imagenes/julio.jpg");background-size:cover;
+ }
+ .caja:nth-child(8) .caja_imagen{
+	 background-image:url("Imagenes/virgen maria.jpg");background-size:cover; 
+ }
+ .caja:nth-child(9) .caja_imagen{
+	 background-image:url("Imagenes/septiembre.avif");background-size:cover;
+ }
+ .caja:nth-child(10) .caja_imagen{
+	 background-image:url("Imagenes/octubre.webp");background-size:cover;
+ }
+ .caja:nth-child(11) .caja_imagen{
+	 background-image:url("Imagenes/noviemre.png");background-size:cover;
+ }
+ .caja:nth-child(12) .caja_imagen{
+	 background-image:url("Imagenes/diciembre.JFIF");
+	 background-size:cover;
+ }
+.usuario img{
+	width:300px;
+}
+.contenedor_contacto{
+	display:flex;
+	justify-content:space-evenly;
+	padding:50px;
+	flex-wrap:wrap;
+}
+.usuario{
+	width:500px;
+}
+.redes img{
+width:150px;
+}	
+.redes{
+	display:flex;
+}
+#contacto h2{
+	text-align:center;
+	font-size:50px;
+	font-family: "Erica One", sans-serif;
+	letter-spacing:1px;
+	color:#7E60BF;
+}
+.usuario p{
+ color:#7E60BF;
+  font-family: "Cute Font", sans-serif;
+  font-size:20px;
+}
+.usuario h3{
+	color:#87A2FF;
+	 font-family: "Damion", cursive;
+	 font-size:40px;
+}
+.texto_redes{
+	margin-left:20px;
+
+}
+.redes:nth-child(2){
+	margin-top:200px;
+}
+#contacto{
+	height:800px;
+}
+.texto_redes h3{
+	color:#8EACCD;
+	font-family: "Itim", cursive;
+	font-size:25px;
+}
+.texto_redes p{
+	color:#8967B3;
+	font-family: "Cute Font", sans-serif;
+	font-size:25px;
+}
+.usuario img{
+	border:5px inset #CB80AB;
+	border-radius:70px;
+	background-color:#E5D9F2;
+}
+body{
+	background-color:#FAF7F0;
+}
